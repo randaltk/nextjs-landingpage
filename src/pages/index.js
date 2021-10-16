@@ -21,13 +21,13 @@ export default function IndexPage() {
         <SEO title="Psicologia demo" />
         <Banner />
         <KeyFeature />
-        <ServiceSection />
-        <Feature />
+        {/* <ServiceSection /> */}
+        {/* <Feature />
         <CoreFeature />
         <WorkFlow />
         <Package />
         <TeamSection />
-        <TestimonialCard />
+        <TestimonialCard /> */}
       </Layout>
     </ThemeProvider>
   );
