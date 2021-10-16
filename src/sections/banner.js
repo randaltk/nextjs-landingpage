@@ -14,8 +14,14 @@ export default function Banner() {
             Top Quality Digital Products to Explore
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to find great software products and deals!
+            Check out our website to find great software products and deals! If
+            you need a website or a web application this is the place to go!
           </Text>
+          <Button variant="primary">Explore</Button>
+        </Box>
+
+        <Box sx={styles.banner.imageBox}>
+          <Image src={BannerImg} alt="banner"></Image>
         </Box>
       </Container>
     </section>
